@@ -6,17 +6,16 @@ const readmore = more.repeat(4001);
 
 async function helpCommand(sock, chatId, message) {
     const helpMessage = `
-╭━━━《 *BLACK PRO TECH* 》━━━━━┈⊷
+╭━━━《 *BLACK PRO TECH* 》
 ┃❍⁠⁠╭──────────────
-┃❍⁠⁠│▸  *Usᴇʀ* : Hamid Hussain👻 
-┃❍⁠⁠│▸  *ʙᴀɪʟᴇʏs* : 𝐌𝐮𝐥𝐭𝐢 𝐝𝐞𝐯𝐢𝐜𝐞
-┃❍⁠⁠│▸  *𝖳ʏᴘᴇ* : 𝐍𝐨𝐝𝐞𝐣𝐬
-┃❍⁠⁠│▸  *ᴘʟᴀᴛғᴏʀᴍ* : 𝐇𝐞𝐫𝐨𝐤𝐮
-┃❍⁠⁠│▸  *ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ* : +923039573226
+┃❍⁠⁠│▸  *Usᴇʀ* : Hᴀᴍɪᴅ Sʜᴀʜ 
+┃❍⁠⁠│▸  *Bᴏᴛ* : Bʟᴀᴄᴋ Bᴏᴛ
+┃❍⁠⁠│▸  *𝖳ʏᴘᴇ* : Jᴀᴠᴀ Sᴄʀɪᴘᴛ
+┃❍⁠⁠│▸  *ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ* : 923039573226
 ┃❍⁠⁠│▸  *ᴍᴏᴅᴇ* : |.|
 ┃❍⁠⁠│▸  *ᴄᴏᴍᴍᴀɴᴅs* : 214
-┃❍⁠⁠│▸  *𝖣ᴇᴠᴇʟᴏᴘᴇʀ* : Hamid Hussain
-┃❍⁠⁠│▸  *𝖵ᴇʀsɪᴏɴ* : 𝟏.𝟎.𝟎
+┃❍⁠⁠│▸  *𝖣ᴇᴠᴇʟᴏᴘᴇʀ* : Hᴀᴍɪᴅ Sʜᴀʜ
+┃❍⁠⁠│▸  *𝖵ᴇʀsɪᴏɴ* : 1.0.0
 ┃❍⁠⁠╰──────────────
 ╰━━━━━━━━━━━━━━━━━━━┈⊷
 ${readmore}
@@ -155,11 +154,11 @@ ${readmore}
 ║ • repo
 ╰━━━━━━━━━━━━━━━┈⊷
 
-> BLACK PRO TECH👻`;
+> Bʟᴀᴄᴋ Pʀᴏ Tᴇᴄʜ;
 
     try {
         const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
-        const audioUrl = "https://files.catbox.moe/sd3ljy.mp3"; // put your audio mp3 link here by caseyrhodes 
+        const audioUrl = "https://files.catbox.moe/sd3ljy.mp3"; // put your audio mp3 link here by Hamid Hussain
 
         if (fs.existsSync(imagePath)) {
             const imageBuffer = fs.readFileSync(imagePath);
@@ -171,8 +170,8 @@ ${readmore}
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363302677217436@newsletter',
-                        newsletterName: 'BLACK-BOT',
+                        newsletterJid: '120363418156081092@newsletter',
+                        newsletterName: 'BLACK BOT',
                         serverMessageId: -1
                     }
                 }
@@ -185,8 +184,8 @@ ${readmore}
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363302677217436@newsletter',
-                        newsletterName: 'POWERED BY HAMID HUSSAIN',
+                        newsletterJid: '120363418156081092@newsletter',
+                        newsletterName: 'Pᴏᴡᴇʀᴇᴅ ʙʏ Hᴀᴍɪᴅ Hᴜssᴀɪɴ',
                         serverMessageId: -1
                     }
                 }
