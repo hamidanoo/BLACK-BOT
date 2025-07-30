@@ -9,8 +9,8 @@ This is a WhatsApp bot built using the Baileys library for group management, inc
 </div> 
 
 <div align="center"> 
-  <a href="https://youtube.com/@Caseyrhodes01"> 
-    <img src="https://github.com/caseyweb/JINX-XMD-V2.0/blob/main/assets/bot_image.jpg" alt="Knight Bot" height="300"> 
+  <a href="https://youtube.com/hamidanoo56"> 
+    <img src="https://github.com/hamidanoo/BLACK-BOT/blob/main/bot_image.jpg" alt="Black Bot" height="300"> 
   </a> 
 </div>
 
