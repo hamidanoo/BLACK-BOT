@@ -1,5 +1,5 @@
 const { cmd } = require("../command");
-const { owner } = require("../settings"); // Import owner list
+const { ownerNumber } = require("../settings"); // ✅ Import as string
 
 cmd({
   pattern: "getpp",
@@ -12,8 +12,8 @@ cmd({
 },
 async (conn, mek, m, { from, sender, reply, isGroup }) => {
   try {
-    // ✅ Only allow owners
-    if (!owner.includes(sender.split("@")[0])) {
+    // ✅ Allow only the owner
+    if (sender.split("@")[0] !== ownerNumber) {
       return reply("❌ This command is only for the bot owner.");
     }
 
