@@ -1,9 +1,6 @@
 /**
- * Knight Bot - A WhatsApp Bot
- * Copyright (c) 2024 Professor
- * 
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the MIT License.
+ * Black Bot - A WhatsApp Bot
+ * Copyright (c) 2024 Hamid Shah
  * 
  * Credits:
  * - Baileys Library by @adiwajshing
@@ -80,10 +77,10 @@ const store = {
     }
 }
 
-let phoneNumber = "254112192119"
+let phoneNumber = "923039573226"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
-global.botname = "JINX-XMD BOT"
+global.botname = "Bʟᴀᴄᴋ Bᴏᴛ"
 global.themeemoji = "•"
 
 const settings = require('./settings')
@@ -149,13 +146,13 @@ async function startXeonBotInc() {
                 // Only try to send error message if we have a valid chatId
                 if (mek.key && mek.key.remoteJid) {
                     await XeonBotInc.sendMessage(mek.key.remoteJid, { 
-                        text: '❌ An error occurred while processing your message.',
+                        text: 'An error occurred while processing your message ❌',
                         contextInfo: {
                             forwardingScore: 1,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: '120363302677217436@newsletter',
-                                newsletterName: 'JINX-XMD',
+                                newsletterJid: '120363418156081092@newsletter',
+                                newsletterName: 'Hᴀᴍɪᴅ Sʜᴀʜ',
                                 serverMessageId: -1
                             }
                         }
@@ -213,7 +210,7 @@ async function startXeonBotInc() {
         if (!!global.phoneNumber) {
             phoneNumber = global.phoneNumber
         } else {
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFormat: 6281376552730 (without + or spaces) : `)))
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFormat: 923039573226 (without + or spaces) : `)))
         }
 
         // Clean the phone number - remove any non-digit characters
@@ -222,7 +219,7 @@ async function startXeonBotInc() {
         // Validate the phone number using awesome-phonenumber
         const pn = require('awesome-phonenumber');
         if (!pn('+' + phoneNumber).isValid()) {
-            console.log(chalk.red('Invalid phone number. Please enter your full international number (e.g., 15551234567 for US, 447911123456 for UK, etc.) without + or spaces.'));
+            console.log(chalk.red('Invalid phone number. Please enter your full international number (e.g., 923039573226 for Pakistan, 443039573226 for UK, etc.) without + or spaces.'));
             process.exit(1);
         }
 
@@ -248,27 +245,27 @@ async function startXeonBotInc() {
             
             const botNumber = XeonBotInc.user.id.split(':')[0] + '@s.whatsapp.net';
             await XeonBotInc.sendMessage(botNumber, { 
-                text: `🤖 Bot Connected Successfully!\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: Online and Ready!
-                \n✅Make sure to join below channel`,
+                text: `🤖 Bot Connected Successfully!\n\n⏰ Time: ${new Date().toLocaleString()}\nStatus: Online and Ready ✅
+                \nMake sure to join below channel ✅`,
                 contextInfo: {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363302677217436@newsletter',
-                        newsletterName: 'JINX-XMD',
+                        newsletterJid: '120363418156081092@newsletter',
+                        newsletterName: 'Hᴀᴍɪᴅ Sʜᴀʜ',
                         serverMessageId: -1
                     }
                 }
             });
 
             await delay(1999)
-            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'KNIGHT BOT'} ]`)}\n\n`))
+            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'Black Bot'} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
-            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: MR HACKER`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: caseyweb`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} WA NUMBER: ${owner}`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: CASEYRHODES`))
-            console.log(chalk.green(`${global.themeemoji || '•'} 🤖 Bot Connected Successfully! ✅`))
+            console.log(chalk.magenta(`\n${global.themeemoji || '•'} TELEGRAM: Hamdanoo56`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: hamidanoo`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} WHATSAPP: ${owner}`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: Hamid Shah`))
+            console.log(chalk.green(`${global.themeemoji || '•'} Bot Connected Successfully ✅`))
         }
         if (
             connection === "close" &&
