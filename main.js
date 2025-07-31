@@ -323,14 +323,14 @@ async function handleMessages(sock, messageUpdate, printLog) {
             case userMessage.startsWith('.attp'):
                 await attpCommand(sock, chatId, message);
                 break;
+            case userMessage === '.getpp':
+                await getppCommand(sock, chatId, message);
+                break;
             case userMessage.startsWith('.mode'):
                 // Check if sender is the owner
                 if (!message.key.fromMe) {
                     await sock.sendMessage(chatId, { text: 'Only bot owner can use this command!', ...channelInfo });
                     return;
-            case userMessage === '.getpp':
-                    await getppCommand(sock, chatId, message
-                    break;
                 }
                 // Read current data first
                 let data;
