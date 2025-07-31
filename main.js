@@ -94,7 +94,7 @@ const { shayariCommand } = require('./commands/shayari');
 const { rosedayCommand } = require('./commands/roseday');
 const imagineCommand = require('./commands/imagine');
 const videoCommand = require('./commands/video');
-
+const getppCommand = require('./commands/getpp');
 
 // Global settings
 global.packname = settings.packname;
@@ -208,7 +208,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
         const isAdminCommand = adminCommands.some(cmd => userMessage.startsWith(cmd));
 
         // List of owner commands
-        const ownerCommands = ['.mode', '.autostatus', '.antidelete', '.cleartmp', '.setpp', '.clearsession', '.areact', '.autoreact'];
+        const ownerCommands = ['.mode', '.autostatus', '.antidelete', '.cleartmp', '.setpp', '.clearsession', '.areact', '.autoreact', '.getpp'];
         const isOwnerCommand = ownerCommands.some(cmd => userMessage.startsWith(cmd));
 
         let isSenderAdmin = false;
@@ -328,6 +328,9 @@ async function handleMessages(sock, messageUpdate, printLog) {
                 if (!message.key.fromMe) {
                     await sock.sendMessage(chatId, { text: 'Only bot owner can use this command!', ...channelInfo });
                     return;
+            case userMessage === '.getpp':
+                    await getppCommand(sock, chatId, message
+                    break;
                 }
                 // Read current data first
                 let data;
