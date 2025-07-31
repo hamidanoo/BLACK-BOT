@@ -1,4 +1,4 @@
-/*Créditos A Quien Correspondan 
+/*Credit to Hamid Shah
 Play Traido y Editado 
 Por Cuervo-Team-Supreme*/
 
