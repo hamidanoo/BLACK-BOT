@@ -155,6 +155,7 @@ ${readmore}
 ╰━━━━━━━━━━━━━━━┈⊷
 
 > Bʟᴀᴄᴋ Pʀᴏ Tᴇᴄʜ;
+);
 
     try {
         const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
