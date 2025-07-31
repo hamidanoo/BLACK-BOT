@@ -9,7 +9,7 @@ async function helpCommand(sock, chatId, message) {
 ╭━━━《 *BLACK PRO TECH* 》
 ┃❍⁠⁠╭──────────────
 ┃❍⁠⁠│▸  *Usᴇʀ* : Hᴀᴍɪᴅ Sʜᴀʜ 
-┃❍⁠⁠│▸  *Bᴏᴛ* : Bʟᴀᴄᴋ Bᴏᴛ
+┃❍⁠⁠│▸  *Bʟᴀᴄᴋ Bᴏᴛ* : Bʟᴀᴄᴋ Bᴏᴛ
 ┃❍⁠⁠│▸  *𝖳ʏᴘᴇ* : Jᴀᴠᴀ Sᴄʀɪᴘᴛ
 ┃❍⁠⁠│▸  *ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ* : 923039573226
 ┃❍⁠⁠│▸  *ᴍᴏᴅᴇ* : |.|
@@ -154,12 +154,11 @@ ${readmore}
 ║ • repo
 ╰━━━━━━━━━━━━━━━┈⊷
 
-> Bʟᴀᴄᴋ Pʀᴏ Tᴇᴄʜ;
-);
+> ʀᴇɢᴀʀᴅs Hᴀᴍɪᴅ Sʜᴀʜ 👻`;
 
     try {
         const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
-        const audioUrl = "https://files.catbox.moe/sd3ljy.mp3"; // put your audio mp3 link here by Hamid Hussain
+        const audioUrl = "https://files.catbox.moe/sd3ljy.mp3"; // put your audio mp3 link here by caseyrhodes 
 
         if (fs.existsSync(imagePath)) {
             const imageBuffer = fs.readFileSync(imagePath);
