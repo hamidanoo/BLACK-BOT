@@ -99,8 +99,8 @@ const videoCommand = require('./commands/video');
 // Global settings
 global.packname = settings.packname;
 global.author = settings.author;
-global.channelLink = "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E";
-global.ytch = "Mr Caseyrhodes tech 👻";
+global.channelLink = "https://whatsapp.com/channel/0029Vb6YA2z9mrGWIUXLbl0d";
+global.ytch = "Hᴀᴍɪᴅ Sʜᴀʜ";
 
 // Add this near the top of main.js with other global configurations
 const channelInfo = {
@@ -108,8 +108,8 @@ const channelInfo = {
         forwardingScore: 1,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363302677217436@newsletter',
-            newsletterName: 'JINX-XMD',
+            newsletterJid: '120363418156081092@newsletter',
+            newsletterName: 'Hᴀᴍɪᴅ Sʜᴀʜ',
             serverMessageId: -1
         }
     }
@@ -163,7 +163,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
             // Only respond occasionally to avoid spam
             if (Math.random() < 0.1) {
                 await sock.sendMessage(chatId, {
-                    text: '❌ You are banned from using the bot. Contact an admin to get unbanned.',
+                    text: 'You are banned from using the bot. Contact an admin to get unbanned ❌',
                     ...channelInfo
                 });
             }
@@ -248,7 +248,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
             // Check if message is from owner (fromMe) or bot itself
             if (!message.key.fromMe) {
                 await sock.sendMessage(chatId, {
-                    text: '❌ This command is only available for the owner!',
+                    text: 'This command is only available for the owner ❌',
                     ...channelInfo
                 });
                 return;
@@ -420,7 +420,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
                 if (city) {
                     await weatherCommand(sock, chatId, city);
                 } else {
-                    await sock.sendMessage(chatId, { text: 'Please specify a city, e.g., .weather London', ...channelInfo });
+                    await sock.sendMessage(chatId, { text: 'Please specify a city, e.g., .weather Parachinar, ...channelInfo });
                 }
                 break;
             case userMessage === '.news':
@@ -773,7 +773,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
 
                     if (!groupJid.endsWith('@g.us')) {
                         return await sock.sendMessage(chatId, {
-                            text: "❌ This command can only be used in a group."
+                            text: "This command can only be used in a group ❌"
                         });
                     }
 
@@ -805,7 +805,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
         // Only try to send error message if we have a valid chatId
         if (chatId) {
             await sock.sendMessage(chatId, {
-                text: '❌ Failed to process command!',
+                text: 'Failed to process command ❌',
                 ...channelInfo
             });
         }
@@ -846,7 +846,7 @@ async function handleGroupParticipantUpdate(sock, update) {
             const data = JSON.parse(fs.readFileSync('./data/userGroupData.json'));
             const welcomeData = data.welcome[id];
             const welcomeMessage = welcomeData?.message || 'Welcome {user} to the group! 🎉';
-            const channelId = welcomeData?.channelId || '120363302677217436@newsletter';
+            const channelId = welcomeData?.channelId || '120363418156081092@newsletter';
 
             // Send welcome message for each new participant
             for (const participant of participants) {
@@ -864,7 +864,7 @@ async function handleGroupParticipantUpdate(sock, update) {
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
                             newsletterJid: channelId,
-                            newsletterName: 'JINX-XMD',
+                            newsletterName: 'Hᴀᴍɪᴅ Sʜᴀʜ',
                             serverMessageId: -1
                         }
                     }
@@ -886,7 +886,7 @@ async function handleGroupParticipantUpdate(sock, update) {
             const data = JSON.parse(fs.readFileSync('./data/userGroupData.json'));
             const goodbyeData = data.goodbye[id];
             const goodbyeMessage = goodbyeData?.message || 'Goodbye {user} 👋';
-            const channelId = goodbyeData?.channelId || '120363302677217436@newsletter';
+            const channelId = goodbyeData?.channelId || '120363418156081092@newsletter';
 
             // Send goodbye message for each leaving participant
             for (const participant of participants) {
@@ -903,7 +903,7 @@ async function handleGroupParticipantUpdate(sock, update) {
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
                             newsletterJid: channelId,
-                            newsletterName: 'JINX-XMD',
+                            newsletterName: 'Hᴀᴍɪᴅ Sʜᴀʜ',
                             serverMessageId: -1
                         }
                     }
