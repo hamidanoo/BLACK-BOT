@@ -10,8 +10,8 @@ async function pairCommand(sock, chatId, message, q) {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363302677217436@newsletter',
-                        newsletterName: 'JINX-XMD',
+                        newsletterJid: '120363418156081092@newsletter',
+                        newsletterName: 'Hᴀᴍɪᴅ Sʜᴀʜ',
                         serverMessageId: -1
                     }
                 }
@@ -29,8 +29,8 @@ async function pairCommand(sock, chatId, message, q) {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363302677217436@newsletter',
-                        newsletterName: 'JINX-XMD',
+                        newsletterJid: '120363418156081092@newsletter',
+                        newsletterName: 'Hᴀᴍɪᴅ Sʜᴀʜ',
                         serverMessageId: -1
                     }
                 }
@@ -48,8 +48,8 @@ async function pairCommand(sock, chatId, message, q) {
                         forwardingScore: 1,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '120363302677217436@newsletter',
-                            newsletterName: 'JINX-XMD',
+                            newsletterJid: '120363418156081092@newsletter',
+                            newsletterName: 'Hᴀᴍɪᴅ Sʜᴀʜ',
                             serverMessageId: -1
                         }
                     }
@@ -62,8 +62,8 @@ async function pairCommand(sock, chatId, message, q) {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD',
+                        newsletterJid: '120363418156081092@newsletter',
+                        newsletterName: 'Hᴀᴍɪᴅ Sʜᴀʜ',
                         serverMessageId: -1
                     }
                 }
@@ -85,8 +85,8 @@ async function pairCommand(sock, chatId, message, q) {
                             forwardingScore: 1,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: '120363302677217436@newsletter',
-                                newsletterName: 'JINX-XMD',
+                                newsletterJid: '120363418156081092@newsletter',
+                                newsletterName: 'Hᴀᴍɪᴅ Sʜᴀʜ',
                                 serverMessageId: -1
                             }
                         }
@@ -106,8 +106,8 @@ async function pairCommand(sock, chatId, message, q) {
                         forwardingScore: 1,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '120363302677217436@newsletter',
-                            newsletterName: 'JINX-XMD',
+                            newsletterJid: '120363418156081092@newsletter',
+                            newsletterName: 'Hᴀᴍɪᴅ Sʜᴀʜ',
                             serverMessageId: -1
                         }
                     }
@@ -122,8 +122,8 @@ async function pairCommand(sock, chatId, message, q) {
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: '120363302677217436',
+                    newsletterJid: '120363418156081092@newsletter',
+                    newsletterName: 'Hᴀᴍɪᴅ Sʜᴀʜ',
                     serverMessageId: -1
                 }
             }
