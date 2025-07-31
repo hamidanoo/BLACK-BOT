@@ -9,8 +9,8 @@ const channelInfo = {
         forwardingScore: 1,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363302677217436@newsletter',
-            newsletterName: 'JINX-XMD',
+            newsletterJid: '120363418156081092@newsletter',
+            newsletterName: 'Hᴀᴍɪᴅ Sʜᴀʜ',
             serverMessageId: -1
         }
     }
@@ -75,7 +75,7 @@ async function viewOnceCommand(sock, chatId, message) {
                 
                 await sock.sendMessage(chatId, { 
                     image: buffer,
-                    caption: `*💀 JINX-XMD Anti ViewOnce 💀*\n\n*Type:* Image 📸\n${caption ? `*Caption:* ${caption}` : ''}`,
+                    caption: `*💀 Black Bot Anti ViewOnce 💀*\n\n*Type:* Image 📸\n${caption ? `*Caption:* ${caption}` : ''}`,
                     ...channelInfo
                 });
                 console.log('✅ View once image processed successfully');
@@ -117,7 +117,7 @@ async function viewOnceCommand(sock, chatId, message) {
 
                 await sock.sendMessage(chatId, { 
                     video: fs.readFileSync(tempFile),
-                    caption: `*💀 JINX-XMDAnti ViewOnce 💀*\n\n*Type:* Video 📹\n${caption ? `*Caption:* ${caption}` : ''}`,
+                    caption: `*💀 Black Bot Anti ViewOnce 💀*\n\n*Type:* Video 📹\n${caption ? `*Caption:* ${caption}` : ''}`,
                     ...channelInfo
                 });
 
