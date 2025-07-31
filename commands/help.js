@@ -171,7 +171,7 @@ ${readmore}
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363418156081092@newsletter',
-                        newsletterName: '120363418156081092',
+                        newsletterName: 'Hᴀᴍɪᴅ Sʜᴀʜ',
                         serverMessageId: -1
                     }
                 }
