@@ -420,7 +420,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
                 if (city) {
                     await weatherCommand(sock, chatId, city);
                 } else {
-                    await sock.sendMessage(chatId, { text: 'Please specify a city, e.g., .weather Parachinar, ...channelInfo });
+                    await sock.sendMessage(chatId, { text: 'Please specify a city, e.g., .weather Parachinar', ...channelInfo });
                 }
                 break;
             case userMessage === '.news':
