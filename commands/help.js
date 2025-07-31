@@ -171,7 +171,7 @@ ${readmore}
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363418156081092@newsletter',
-                        newsletterName: 'BLACK BOT',
+                        newsletterName: '120363418156081092',
                         serverMessageId: -1
                     }
                 }
@@ -185,7 +185,7 @@ ${readmore}
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363418156081092@newsletter',
-                        newsletterName: 'Pᴏᴡᴇʀᴇᴅ ʙʏ Hᴀᴍɪᴅ Hᴜssᴀɪɴ',
+                        newsletterName: 'Hᴀᴍɪᴅ Sʜᴀʜ',
                         serverMessageId: -1
                     }
                 }
