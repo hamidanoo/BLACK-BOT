@@ -4,7 +4,7 @@ This is a WhatsApp bot built using the Baileys library for group management, inc
 
 <div align="center"> 
   <a href="https://git.io/typing-svg"> 
-    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=000000&center=true&width=910&height=100&lines=I+am+BLACK;Multi+Device+Whatsapp+Bot;Coded+By+Hamid+Hussain" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=FF0000&center=true&width=910&height=100&lines=I+am+BLACK;Multi+Device+Whatsapp+Bot;Coded+By+Hamid+Hussain" alt="Typing SVG" />
   </a> 
 </div> 
 
@@ -41,7 +41,7 @@ Deploy the bot and easily connect it to your WhatsApp account by pair code. Clic
 </div>
 
 <div align="center">
-  <a href="https://knight-bot-paircode.onrender.com" target="_blank">
+  <a href="https://black-bot-session.onrender.com" target="_blank">
     <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Easy%20Method-ff4d4d?style=for-the-badge" alt="Generate Pair Code"/>
   </a>
 </div>
