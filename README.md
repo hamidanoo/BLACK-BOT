@@ -1,6 +1,6 @@
 # BLACK BOT
 
-This is a WhatsApp bot built using the Baileys library for group management, including features like tagging all members, muting/unmuting, and many more. It's designed to help admins efficiently manage WhatsApp groups.
+This is a WhatsApp bot built using the Baileys library for group management, It's designed to help admins efficiently manage WhatsApp groups.
 
 <div align="center"> 
   <a href="https://git.io/typing-svg"> 
@@ -20,7 +20,7 @@ This is a WhatsApp bot built using the Baileys library for group management, inc
 
 ### Step 1: Fork the Repository
 
-Click the button below to fork the Knight Bot repository to your GitHub account:
+Click the button below to fork the Black Bot repository to your GitHub account:
 
 <div align="center">
   <a href="https://github.com/hamidanoo/BLACK-BOT/fork">
@@ -34,11 +34,6 @@ Click the button below to fork the Knight Bot repository to your GitHub account:
 
 Deploy the bot and easily connect it to your WhatsApp account by pair code. Click the button below to deploy the bot on Replit.
 
-<div align="center">
-  <a href="https://replit.com/@DGXeon/Xeon-PairCode?v=1" target="_blank">
-    <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Replit-success?style=for-the-badge" alt="Deploy on Replit"/>
-  </a>
-</div>
 
 <div align="center">
   <a href="https://black-bot-session.onrender.com" target="_blank">
@@ -67,7 +62,7 @@ For further customization and setup guidance, click the button below:
 
 ### Deploy Now on Below Panel
 <div align="center">
-<a href="https://dashboard.katabump.com/auth/login#d6b7d6" target="_blank">
+<a href="https://dashboard.katabump.com/auth/login#9fcdaa" target="_blank">
   <img src="https://img.shields.io/badge/Katabump-D6B7D6?style=for-the-badge&logo=server&logoColor=black" alt="Katabump"/>
 </a>
 </div>
@@ -75,7 +70,7 @@ For further customization and setup guidance, click the button below:
 ### Join Us
 
 <div align="center">
-  <a href="https://t.me/">
+  <a href="https://t.me/hamidanoo56">
     <img src="https://img.shields.io/badge/Join%20Telegram-0078E7?style=for-the-badge&logo=telegram&logoColor=white" alt="Join Telegram"/>
   </a>
   <a href="https://whatsapp.com/channel/0029Vb6YA2z9mrGWIUXLbl0d">
